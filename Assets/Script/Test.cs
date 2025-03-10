@@ -7,7 +7,15 @@ public class Test : MonoBehaviour
     {
         for(int i =0;i < 10; i++)
         {
-            Debug.Log($"{i}");
+            Debug.Log($"ÀÎµ¦½º´Â : {i + 1}");
+        }
+
+        int counter = 0;
+
+        while(counter <5)
+        {
+            Debug.Log($"While Counter {counter}");
+            counter++;
         }
     }
 
